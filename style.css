@@ -1,0 +1,227 @@
+body {
+    background-color: rgb(41, 40, 40);
+    margin-bottom: 6rem;
+    color: white;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(223, 198, 198);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-main div {
+    height: 60px;
+}
+
+.header-main-name {
+    width: fit-content;
+    height: 30px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+   
+}
+
+.header-main-name h1 {
+    color: rgb(33, 33, 112);
+    text-align: center;
+    font-style: italic;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-main-nav div {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: larger;
+    color: rgb(33, 33, 112)
+    align-items: center;
+        
+}
+
+.mainb {
+    border: auto;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: normal;
+    align-items: center; 
+}
+h1 { 
+    
+    color: white;
+    text-size-adjust: auto 50px;
+}
+
+.head1 {
+    width: 100%;
+    border-style: solid 10px black;
+    padding: 15px 10px 20px 15px;
+    background-color: aqua;
+    text-size-adjust: auto;
+    
+}
+
+.footerWrap {
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+}
+.footer {
+    width:auto;
+    margin:auto;
+}
+.footerContent {
+    float:center;
+    width:100%;
+    background-color:#555;
+    padding:20px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.links {
+    float: right;
+}
+
+.links a.active {
+    border-bottom: 1px solid #555;
+      border-bottom-color: rgb(85, 85, 85);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+}
+
+.marg {
+    margin-right: 25px;
+}
+
+.s1 { 
+    padding-left: 700px;
+}
+
+.s2 { 
+    padding: 10px 25px 30px 25px;
+}
+
+.s4 {
+    padding: 10px 30px 50px 30px;
+}
+.d1 {
+    border: auto;
+    border-color: red;
+    color: blue;
+    border-style: solid;
+    padding:20px;
+    margin: 1rem;
+    max-width: 200px;
+    align-self:auto;
+}
+
+.quote {
+    padding: 2rem; 
+    border-radius: 10px;
+    border: 15px solid gold;
+    margin: 5rem 15rem 15rem 15rem;
+    background-color: goldenrod;
+    text-align: center;
+}
+.quote1 {
+    padding: 2rem; 
+    border-radius: 10px;
+    border: 15px solid goldenrod;
+    margin: 5rem 15rem 5rem 15rem;
+    background-color: gold;
+    text-align: center;
+}
+img { 
+    margin: 2rem;
+}
+
+
+.brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+    .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    }
+    
+
+
+.grow img{
+    transition: 1s ease;
+}
+        
+.grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+
+
+.fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+}
+    
+    .fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+section {
+    
+}    
+
+.form-wrapper {
+    width: fit-content;
+    height: 400px;
+    align-content: center;
+    box-sizing: border-box;
+    margin-left: 500px;
+   
+}
+
+.formdiv {
+    width: 100%;
+    height: 500px;
+    background-image: url(./beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div section form button {
+    margin-left: 100px;
+
+}
+
+div section form label {
+    width: fit-content;
+}
+
